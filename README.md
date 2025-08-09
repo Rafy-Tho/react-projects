@@ -14,4 +14,4 @@ If you are developing a production application, we recommend using TypeScript wi
 ### project deployment 
 
  -this is the live preview of this project 
- -link : https://rafy-expense-tacker-app.netlify.app/
+ link : https://rafy-expense-tacker-app.netlify.app/
