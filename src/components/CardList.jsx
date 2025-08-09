@@ -43,7 +43,12 @@ function Cart({ product, dispatch }) {
         <p>${price} each</p>
       </div>
       <div className="counter">
-        <button onClick={() => dispatch({ type: "decrease", payload: id })}>
+        <button
+          onClick={() => {
+            dispatch({ type: "decrease", payload: id });
+            if (amount === 1) dispatch({ type: "delete", payload: id });
+          }}
+        >
           -
         </button>
         <input

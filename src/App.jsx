@@ -20,7 +20,11 @@ function reducer(products, action) {
     case "decrease":
       return products.map((product) =>
         product.id === action.payload
-          ? { ...product, amount: +product.amount - 1 }
+          ? {
+              ...product,
+              amount:
+                product.amount >= 1 ? +product.amount - 1 : product.amount,
+            }
           : product
       );
     case "delete":
