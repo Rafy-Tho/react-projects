@@ -1,0 +1,52 @@
+.result {
+  margin-top: 1rem;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.list {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  background-color: antiquewhite;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.list button {
+  margin-left: 1rem;
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.btns {
+  justify-content: center;
+  display: flex;
+  margin: 1rem 0;
+  gap: 0.5rem;
+}
+.btns button {
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  border: 2px solid rgb(9, 82, 166);
+  color: rgb(4, 91, 189);
+}
+:global(.active) {
+  background-color: rgb(9, 98, 232);
+  color: #fff !important;
+}
+.income {
+  border-left: 3px solid green;
+}
+.expense {
+  border-left: 3px solid red;
+}

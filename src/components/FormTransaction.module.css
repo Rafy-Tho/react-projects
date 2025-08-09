@@ -1,0 +1,21 @@
+.form {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 5rem;
+  border-radius: 1rem;
+  margin: auto;
+}
+input,
+select {
+  padding: 0.5rem;
+}
+
+label {
+  display: inline-block;
+  margin: 0.5rem;
+}
+.form button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}

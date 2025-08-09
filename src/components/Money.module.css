@@ -1,0 +1,35 @@
+.money {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-evenly;
+  div {
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background-color: #eee;
+    p {
+      margin-bottom: 0.5rem;
+    }
+  }
+  div:nth-of-type(1) {
+    border-top: 0.3rem solid rgb(76, 190, 14);
+    span {
+      color: rgb(76, 190, 14);
+    }
+  }
+  div:nth-of-type(2) {
+    border-top: 0.3rem solid rgb(190, 40, 14);
+    span {
+      color: rgb(190, 40, 14);
+    }
+  }
+  div:nth-of-type(3) {
+    border-top: 0.3rem solid rgb(14, 111, 190);
+  }
+}
+
+.bule {
+  color: rgb(14, 140, 190);
+}
+.red {
+  color: rgb(190, 40, 14);
+}
