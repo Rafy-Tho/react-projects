@@ -54,6 +54,7 @@ function FormTransaction({ dispatch }) {
 
       <label>Description</label>
       <input
+        required
         value={description}
         onChange={(e) =>
           dispatchTranseaction({ type: "text", payload: e.target.value })
@@ -64,6 +65,7 @@ function FormTransaction({ dispatch }) {
 
       <label>Amount</label>
       <input
+        required
         value={amount}
         onChange={(e) =>
           dispatchTranseaction({
