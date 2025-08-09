@@ -3,3 +3,104 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: antiquewhite;
+}
+
+.app {
+  max-width: 800px;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.products {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product {
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 10px;
+  p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: rgb(11, 203, 191);
+  }
+  button {
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+    background-color: aqua;
+  }
+  button:active {
+    transform: scale(0.9);
+    background-color: rgb(220, 231, 13);
+  }
+}
+.carts {
+  margin-top: 1rem;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.counter {
+  margin-left: auto;
+  margin-right: 2rem;
+  input {
+    width: min-content;
+    max-width: 50px;
+    margin: 0 1rem;
+  }
+  button {
+    background-color: aqua;
+    border-radius: 50px;
+    cursor: pointer;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+    border: none;
+    transition: all 0.1s;
+  }
+  button:active {
+    transform: scale(0.9);
+    background-color: rgb(220, 231, 13);
+  }
+}
+.remove {
+  button {
+    background-color: red;
+    border: none;
+    margin-left: 1rem;
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+}
+.total {
+  background-color: rgb(10, 197, 7);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.empty {
+  margin: 2rem 0;
+}
+
+.con {
+  background-color: rgb(138, 220, 231);
+  padding: 2rem;
+  border-radius: 1rem;
+}
